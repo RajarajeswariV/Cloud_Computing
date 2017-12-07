@@ -1,0 +1,13 @@
+http://programminghistorian.org/lessons/generating-an-ordered-data-set-from-an-OCR-text-file
+http://stackoverflow.com/questions/30648449/python-spark-sort-elements-based-on-value
+http://www.quuxlabs.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/#test-your-code-cat-data-map-sort-reduce
+http://blog.matthewrathbone.com/2013/11/17/python-map-reduce-on-hadoop-a-beginners-tutorial.html
+http://www.glennklockwood.com/data-intensive/hadoop/streaming.html#3-1-the-mapper
+https://wiki.apache.org/hadoop/HowManyMapsAndReduces
+https://wiki.apache.org/hadoop/HowToConfigure
+https://dbaumgartel.wordpress.com/2014/04/10/an-elastic-mapreduce-streaming-example-with-python-and-ngrams-on-aws/
+https://spark.apache.org/docs/1.2.0/programming-guide.html
+http://allthingshadoop.com/2011/12/16/simple-hadoop-streaming-tutorial-using-joins-and-keys-with-python/
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/raid-config.html
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+

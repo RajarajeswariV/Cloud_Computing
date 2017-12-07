@@ -1,0 +1,11 @@
+######Lines executed directly on the spark shell:
+### Open the spark shell
+
+val inputfile=sc.textFile("hdfs:////root/ephemeral-hdfs/bin/dataset1gb") # To get the input file from the HDFS.
+val sorted=inputfile.map(line => (line.take(10),line.drop(10))) # Gets first 10 bytes as key from the input file
+val sortt=sorted.sortByKey() # Sort the input file based on key
+val lines=sortt.map{case (k,v) => s"$k $v" } # Maps the file with key and a value(here value being rest of the other lines apart from the key)
+lines.saveAsTextFile("/root/dataset1gb") # Save the output file on HDFS
+exit # Exit the shell
+
+Please note: I referred to the Apache spark official website to get the shell command code.
